@@ -33,6 +33,7 @@ class Param():
             'labeled_ratio': 0.1,
             'cluster_num_factor': 1, 
             'method': 'ADB',
+            'activation': 'relu',
             'train': False,
             'save_model': False, 
             'backbone': 'bert',

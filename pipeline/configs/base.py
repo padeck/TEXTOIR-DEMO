@@ -53,9 +53,9 @@ class ParamManager:
     def get_method_param(self, config_file_name, type):
         
         if config_file_name.endswith('.py'):
-            module_name = "configs." + str(type) + '.' + str(config_file_name[:-3])
+            module_name = "pipeline.configs." + str(type) + '.' + str(config_file_name[:-3])
         else:
-            module_name = "configs." + str(type) + '.' +  str(config_file_name)
+            module_name = "pipeline.configs." + str(type) + '.' +  str(config_file_name)
 
         config = importlib.import_module(module_name)
 

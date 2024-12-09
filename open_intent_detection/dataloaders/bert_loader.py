@@ -4,7 +4,7 @@ import os
 import csv
 import sys
 import logging
-from pytorch_pretrained_bert.tokenization import BertTokenizer
+from transformers import BertTokenizer
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler, TensorDataset)
 
 

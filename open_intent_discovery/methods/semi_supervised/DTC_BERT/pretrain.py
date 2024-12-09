@@ -8,8 +8,8 @@ import torch.nn.functional as F
 
 from sklearn.metrics import accuracy_score
 from tqdm import trange, tqdm
-from losses import loss_map
-from utils.functions import save_model
+from open_intent_discovery.losses import loss_map
+from open_intent_discovery.utils.functions import save_model
 
 class PretrainDTCManager:
     

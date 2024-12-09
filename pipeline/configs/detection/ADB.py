@@ -28,8 +28,8 @@ class Param():
         hyper_parameters = {
 
             'bert_model': "../../bert_uncased_L-12_H-768_A-12/",
-            "working_path": '/home/zhanghanlei/git/submit/TEXTOIR-DEMO/open_intent_detection',
-            'num_train_epochs': 100,
+            "working_path": '../../open_intent_detection',
+            'num_train_epochs': 1,
             'num_labels': None,
             'max_seq_length': None,
             'freeze_bert_parameters': True,

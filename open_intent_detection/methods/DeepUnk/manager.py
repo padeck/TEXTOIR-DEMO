@@ -9,9 +9,9 @@ import logging
 from sklearn.metrics import confusion_matrix, accuracy_score
 from tqdm import trange, tqdm
 from sklearn.neighbors import LocalOutlierFactor
-from losses import loss_map
-from utils.functions import save_model, restore_model
-from utils.metrics import F_measure
+from open_intent_detection.losses import loss_map
+from ...utils.functions import save_model, restore_model
+from ...utils.metrics import F_measure
 
 class DeepUnkManager:
     

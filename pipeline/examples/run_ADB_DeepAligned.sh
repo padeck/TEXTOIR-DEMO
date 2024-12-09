@@ -2,9 +2,9 @@
 
 for seed in 0
 do
-    for dataset in 'clinc' 'banking' 'stackoverflow' 'snips'
+    for dataset in 'clinc' #'banking'
     do
-        for known_cls_ratio in 0.25 0.5 0.75
+        for known_cls_ratio in 0.25 # 0.5 0.75
         do
             for labeled_ratio in 1.0
             do 
@@ -38,7 +38,8 @@ do
                 --save_results \
                 --save_frontend_results \
                 --exp_name 'ADB_DeepAligned' \
-                --results_file_name 'results_DeepAligned.csv'   
+                --results_file_name 'results_DeepAligned.csv'   \
+                --train
 
                 python ../run.py \
                 --type 'Pipeline' \

@@ -1,3 +1,8 @@
 known_intent_acc,known_intent_f1,open_intent_nmi,open_intent_ari,dataset,method,known_cls_ratio,labeled_ratio,seed,create_time
 18.82,15.21,23.18,1.22,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-20-48-25
 23.68,22.48,41.84,2.88,clinc,ADB+DeepAligned,0.25,1.0,0,2024-12-09-21-26-00
+18.82,15.21,23.18,1.22,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-18-07
+18.82,15.21,23.18,1.22,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-25-14
+18.82,15.21,23.18,1.22,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-27-59
+28.55,32.05,29.43,4.0,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-39-29
+28.55,32.05,29.43,4.0,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-51-48

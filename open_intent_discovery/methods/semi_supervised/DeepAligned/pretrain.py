@@ -8,8 +8,8 @@ import logging
 from sklearn.metrics import accuracy_score
 from tqdm import trange, tqdm
 
-from losses import loss_map
-from utils.functions import save_model
+from open_intent_discovery.losses import loss_map
+from open_intent_discovery.utils.functions import save_model
 
 class PretrainDeepAlignedManager:
     
@@ -65,7 +65,7 @@ class PretrainDeepAlignedManager:
             eval_results = {
                 'train_loss': loss,
                 'eval_score': eval_score,
-                'best_score':best_eval_score,
+                'best_score': best_eval_score,
             }
             self.logger.info("***** Epoch: %s: Eval results *****", str(epoch + 1))
             for key in sorted(eval_results.keys()):

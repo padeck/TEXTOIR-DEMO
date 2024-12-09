@@ -5,9 +5,9 @@ import copy
 import logging
 from sklearn.metrics import confusion_matrix, accuracy_score, f1_score
 from tqdm import trange, tqdm
-from losses import loss_map
-from utils.functions import restore_model, save_model
-from utils.metrics import F_measure
+from open_intent_detection.losses import loss_map
+from ...utils.functions import restore_model, save_model
+from ...utils.metrics import F_measure
 
 
 class MSPManager:

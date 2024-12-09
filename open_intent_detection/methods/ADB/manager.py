@@ -9,10 +9,10 @@ from sklearn.metrics import confusion_matrix, f1_score, accuracy_score
 from tqdm import trange, tqdm
 
 from .boundary import BoundaryLoss
-from losses import loss_map
-from utils.functions import save_model
-from utils.metrics import F_measure
-from utils.functions import restore_model
+from open_intent_detection.losses import loss_map
+from ...utils.functions import save_model
+from ...utils.metrics import F_measure
+from ...utils.functions import restore_model
 
 def euclidean_metric(a, b):
     n = a.shape[0]

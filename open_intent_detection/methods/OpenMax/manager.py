@@ -4,13 +4,13 @@ import torch.nn.functional as F
 import numpy as np
 import copy
 import logging
-from losses import loss_map
+from open_intent_detection.losses import loss_map
 from torch import nn
 from datetime import datetime
 from sklearn.metrics import confusion_matrix, accuracy_score
 from tqdm import trange, tqdm
-from utils.functions import restore_model, save_model
-from utils.metrics import F_measure
+from ...utils.functions import restore_model, save_model
+from ...utils.metrics import F_measure
 from .openmax_utils import recalibrate_scores, weibull_tailfitting, compute_distance
 
         

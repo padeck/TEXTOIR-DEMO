@@ -9,9 +9,9 @@ from datetime import datetime
 from sklearn.metrics import confusion_matrix, accuracy_score
 from tqdm import trange, tqdm
 from scipy.stats import norm as dist_model
-from losses import loss_map
-from utils.functions import restore_model, save_model
-from utils.metrics import F_measure
+from open_intent_detection.losses import loss_map
+from ...utils.functions import restore_model, save_model
+from ...utils.metrics import F_measure
 
 class DOCManager:
     

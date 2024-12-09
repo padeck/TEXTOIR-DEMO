@@ -2,7 +2,7 @@
 
 for seed in 0
 do
-    for dataset in 'clinc' #'banking'
+    for dataset in  'banking'
     do
         for known_cls_ratio in 0.25 # 0.5 0.75
         do

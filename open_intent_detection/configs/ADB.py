@@ -25,15 +25,15 @@ class Param():
         """
         hyper_parameters = {
 
-            'bert_model': "/home/sharing/disk1/pretrained_embedding/bert/uncased_L-12_H-768_A-12/",
-            'num_train_epochs': 100,
+            'bert_model': "google/bert_uncased_L-12_H-768_A-12",
+            'num_train_epochs': 1,    # was 100
             'num_labels': None,
-            'max_seq_length': None, 
+            'max_seq_length': None,
             'freeze_bert_parameters': True,
             'feat_dim': 768,
             'warmup_proportion': 0.1,
             'lr_boundary': 0.05,
-            'lr': 2e-5, 
+            'lr': 2e-5,
             'loss_fct': 'CrossEntropyLoss',
             'activation': 'relu',
             'train_batch_size': 128,

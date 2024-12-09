@@ -1,6 +1,6 @@
 import logging
 import os
-from utils.metrics import clustering_score
+from open_intent_discovery.utils.metrics import clustering_score
 from sklearn.metrics import confusion_matrix
 
 

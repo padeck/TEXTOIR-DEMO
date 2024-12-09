@@ -4,10 +4,10 @@ import copy
 import torch
 import os
 import torch.nn.functional as F
-from losses import loss_map
+from open_intent_discovery.losses import loss_map
 from tqdm import tqdm, trange
 from sklearn.metrics import accuracy_score
-from utils.functions import save_model
+from open_intent_discovery.utils.functions import save_model
 
 def Class2Simi(x,mode='cls',mask=None):
     # Convert class label to pairwise similarity

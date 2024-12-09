@@ -7,10 +7,10 @@ import torch.nn.functional as F
 from tqdm import trange, tqdm
 from sklearn.metrics import confusion_matrix
 
-from losses import loss_map
+from open_intent_discovery.losses import loss_map
 from .pretrain import PretrainKCLManager
-from utils.functions import restore_model, save_model
-from utils.metrics import clustering_score
+from open_intent_discovery.utils.functions import restore_model, save_model
+from open_intent_discovery.utils.metrics import clustering_score
 
 class KCLManager:
     

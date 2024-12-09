@@ -1,7 +1,7 @@
 """the dataset  URL Configuration
 
 """
-from django.conf.urls import url
+from django.urls import re_path
 from django.contrib import admin
 from django.urls import path
 
@@ -10,13 +10,13 @@ urlpatterns = [
     path('toDatasetList/',views.toDatasetList),
     path('getDatasetList/',views.getDatasetList),
     path('toAddHtml/',views.toAddHtml),
-    url(r'^addDataset/$',views.addDataset),
-    url(r'^details/$',views.details),
-    url(r'^downloadDataset/$',views.downloadDataset),
-    url(r'^toEdit/$', views.toEdit),
-    url(r'^editData/$', views.editData),
-    url(r'^delData/$', views.delData),
-    url(r'^update_source/$', views.update_source),
+    re_path(r'^addDataset/$',views.addDataset),
+    re_path(r'^details/$',views.details),
+    re_path(r'^downloadDataset/$',views.downloadDataset),
+    re_path(r'^toEdit/$', views.toEdit),
+    re_path(r'^editData/$', views.editData),
+    re_path(r'^delData/$', views.delData),
+    re_path(r'^update_source/$', views.update_source),
 
     
 ]

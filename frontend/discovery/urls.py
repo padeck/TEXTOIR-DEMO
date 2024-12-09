@@ -1,20 +1,20 @@
 """the dataset  URL Configuration
 
 """
-from django.conf.urls import url
+from django.urls import re_path
 from django.contrib import admin
 from django.urls import path
 from . import views
 urlpatterns = [
     path('model_management/',views.model_management),
     path('model_management/getModelList',views.getModelList),
-    url(r'^model_management/details/$',views.model_management_details),
+    re_path(r'^model_management/details/$',views.model_management_details),
 
     
     path('model_training/',views.model_training),
     path('model_training/log_delete',views.log_delete),
     path('model_training/getModelList',views.getModelLogList),
-    url(r'^model_training/toLogParameter/$',views.toLogParameter),
+    re_path(r'^model_training/toLogParameter/$',views.toLogParameter),
 
     path('model_training/toRunModel',views.toRunModel),
     path('model_training/getParamListByModelId',views.getParamListByModelId),

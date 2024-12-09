@@ -13,13 +13,13 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.conf.urls import url,include
+from django.urls import re_path,include
 from django.contrib import admin
 from django.urls import path
 from .views import index,welcome,about_us,introduction,updates,copyright,visualization_platform,textoir_toolkit
 urlpatterns = [
     path('', index),
-    url(r'^admin/', admin.site.urls),
+    re_path(r'^admin/', admin.site.urls),
     path('welcome/',welcome),
     path('about_us/',about_us),
     path('copyright/',copyright),
@@ -29,11 +29,11 @@ urlpatterns = [
     path('updates/',updates),
 
     # include the dataset ' urls
-    url(r'^thedataset/',include('thedataset.urls')),
+    re_path(r'^thedataset/',include('thedataset.urls')),
     # include detection ' urls
-    url(r'^detection/',include('detection.urls')),
+    re_path(r'^detection/',include('detection.urls')),
     # include discovery ' urls
-    url(r'^discovery/',include('discovery.urls')),
+    re_path(r'^discovery/',include('discovery.urls')),
     # include annotation ' urls
-    url(r'^annotation/',include('annotation.urls')),
+    re_path(r'^annotation/',include('annotation.urls')),
 ]

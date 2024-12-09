@@ -25,7 +25,7 @@ class Param():
         """
         hyper_parameters = {
 
-            'bert_model': "google-bert/bert-base-uncased",
+            'bert_model': "../../bert_uncased_L-12_H-768_A-12/",
             "working_path": '../../open_intent_discovery/',
             'max_seq_length': None,
             'num_pretrain_epochs': 1, #was 100

@@ -6,3 +6,4 @@ known_intent_acc,known_intent_f1,open_intent_nmi,open_intent_ari,dataset,method,
 18.82,15.21,23.18,1.22,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-27-59
 28.55,32.05,29.43,4.0,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-39-29
 28.55,32.05,29.43,4.0,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-22-51-48
+28.55,32.05,42.85,8.63,banking,ADB+DeepAligned,0.25,1.0,0,2024-12-09-23-23-04

@@ -24,15 +24,19 @@ class BoundaryLoss(nn.Module):
         
         # Ensure that centroids and labels are moved to the correct device
         centroids = centroids.to(self.device)
-        labels = labels.to(self.device)
+        labels = labels.to(self.device)  # Move labels to the same device as delta
         
         # Get the corresponding centroid and delta values for the current labels
         c = centroids[labels]
-        d = delta[labels]
+        d = delta[labels.to(delta.device)] # Labels must be on the same device as delta
         x = pooled_output.to(self.device)
         
         # Compute Euclidean distance
         euc_dis = torch.norm(x - c, p=2, dim=1).view(-1)
+
+        # Send to device
+        euc_dis = euc_dis.to(self.device)
+        d = d.to(self.device)
         
         # Create masks based on distance thresholds
         pos_mask = (euc_dis > d).type(torch.float32).to(self.device)

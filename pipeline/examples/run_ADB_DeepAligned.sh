@@ -21,7 +21,8 @@ do
                 --save_model \
                 --save_frontend_results \
                 --exp_name 'ADB_DeepAligned' \
-                --results_file_name 'results_ADB.csv' 
+                --results_file_name 'results_ADB.csv' \
+                --train
 
                 python ../run.py \
                 --type 'Discovery' \

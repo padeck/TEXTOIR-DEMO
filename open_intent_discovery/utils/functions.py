@@ -2,7 +2,7 @@ import os
 import torch
 import numpy as np
 import pandas as pd
-from pytorch_pretrained_bert.modeling import WEIGHTS_NAME, CONFIG_NAME
+from transformers import WEIGHTS_NAME, CONFIG_NAME
 
     
 def save_npy(npy_file, path, file_name):
@@ -15,7 +15,6 @@ def load_npy(path, file_name):
     return npy_file
 
 def save_model(model, model_dir):
-
     save_model = model.module if hasattr(model, 'module') else model  
     model_file = os.path.join(model_dir, WEIGHTS_NAME)
     model_config_file = os.path.join(model_dir, CONFIG_NAME)
@@ -50,8 +49,8 @@ def save_results(args, test_results):
 
     var = [args.dataset, args.method, args.backbone, args.known_cls_ratio, args.labeled_ratio, args.cluster_num_factor, args.seed, created_time]
     names = ['dataset', 'method', 'backbone', 'known_cls_ratio', 'labeled_ratio', 'cluster_num_factor', 'seed', 'created_time']
-    vars_dict = {k:v for k,v in zip(names, var) }
-    results = dict(test_results,**vars_dict)
+    vars_dict = {k: v for k, v in zip(names, var)}
+    results = dict(test_results, **vars_dict)
     keys = list(results.keys())
     values = list(results.values())
     
@@ -60,13 +59,12 @@ def save_results(args, test_results):
     if not os.path.exists(results_path) or os.path.getsize(results_path) == 0:
         ori = []
         ori.append(values)
-        df1 = pd.DataFrame(ori,columns = keys)
-        df1.to_csv(results_path,index=False)
+        df1 = pd.DataFrame(ori, columns=keys)
+        df1.to_csv(results_path, index=False)
     else:
         df1 = pd.read_csv(results_path)
-        new = pd.DataFrame(results,index=[1])
-        df1 = df1.append(new,ignore_index=True)
-        df1.to_csv(results_path,index=False)
+        new = pd.DataFrame(results, index=[1])
+        df1 = pd.concat([df1, new], ignore_index=True)
+        df1.to_csv(results_path, index=False)
     data_diagram = pd.read_csv(results_path)
-    
     print('test_results', data_diagram)

@@ -13,3 +13,5 @@ F1-known,F1-open,F1,Acc,dataset,method,backbone,known_cls_ratio,labeled_ratio,lo
 10.909,29.2939,11.3804,19.64,clinc,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-20-57-24
 10.909,29.2939,11.3804,19.64,clinc,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-21-14-12
 11.5075,9.2531,11.4497,10.36,clinc,ADB,bert,0.25,1.0,CrossEntropyLoss,0,100,2024-12-09-22-05-05
+21.0174,77.3544,23.8343,64.38,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-22-34-53
+21.0174,77.3544,23.8343,64.38,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-22-47-12

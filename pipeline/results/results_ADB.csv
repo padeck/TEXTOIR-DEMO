@@ -1,0 +1,14 @@
+F1-known,F1-open,F1,Acc,dataset,method,backbone,known_cls_ratio,labeled_ratio,loss,seed,num_train_epochs,created_time
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-14-27-23
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-18-27-44
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-18-56-02
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-19-05-27
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-19-14-07
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-19-21-50
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-19-49-14
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-19-57-56
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-20-07-11
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-20-23-04
+7.0377,42.213,8.7964,26.07,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-20-38-50
+10.909,29.2939,11.3804,19.64,clinc,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-20-57-24
+10.909,29.2939,11.3804,19.64,clinc,ADB,bert,0.25,1.0,CrossEntropyLoss,0,1,2024-12-09-21-14-12

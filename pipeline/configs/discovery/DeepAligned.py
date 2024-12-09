@@ -25,11 +25,11 @@ class Param():
         """
         hyper_parameters = {
 
-            'bert_model': "/home/sharing/disk1/pretrained_embedding/bert/uncased_L-12_H-768_A-12/",
+            'bert_model': "google-bert/bert-base-uncased",
             "working_path": '/home/zhanghanlei/git/submit/TEXTOIR-DEMO/open_intent_discovery/',
             'max_seq_length': None, 
-            'num_pretrain_epochs': 100,
-            'num_train_epochs': 100,
+            'num_pretrain_epochs': 1,#was 100
+            'num_train_epochs': 1,#was 100
             'num_labels': None,
             'freeze_bert_parameters': True,
             'feat_dim': 768,

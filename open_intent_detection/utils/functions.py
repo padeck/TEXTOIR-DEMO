@@ -3,7 +3,7 @@ import os
 import torch
 import numpy as np
 import pandas as pd
-from pytorch_pretrained_bert.modeling import WEIGHTS_NAME, CONFIG_NAME
+from transformers import WEIGHTS_NAME, CONFIG_NAME
 
 def save_npy(npy_file, path, file_name):
     npy_path = os.path.join(path, file_name)
@@ -62,13 +62,13 @@ def save_results(args, test_results):
     if not os.path.exists(results_path) or os.path.getsize(results_path) == 0:
         ori = []
         ori.append(values)
-        df1 = pd.DataFrame(ori,columns = keys)
-        df1.to_csv(results_path,index=False)
+        df1 = pd.DataFrame(ori, columns=keys)
+        df1.to_csv(results_path, index=False)
     else:
         df1 = pd.read_csv(results_path)
-        new = pd.DataFrame(results,index=[1])
-        df1 = df1.append(new,ignore_index=True)
-        df1.to_csv(results_path,index=False)
+        new = pd.DataFrame(results, index=[1])
+        df1 = pd.concat([df1, new], ignore_index=True)
+        df1.to_csv(results_path, index=False)
     data_diagram = pd.read_csv(results_path)
     
     print('test_results', data_diagram)

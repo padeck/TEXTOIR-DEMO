@@ -9,8 +9,8 @@ from sklearn.metrics import confusion_matrix
 from sklearn.cluster import KMeans
 from tqdm import trange, tqdm
 
-from utils.metrics import clustering_score
-from utils.functions import restore_model, save_model
+from open_intent_discovery.utils.metrics import clustering_score
+from open_intent_discovery.utils.functions import restore_model, save_model
 
 def target_distribution(q):
     weight = q ** 2 / q.sum(0)

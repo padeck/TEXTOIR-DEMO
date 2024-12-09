@@ -9,11 +9,11 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score, confusion_matrix, f1_score, accuracy_score
 from tqdm import trange, tqdm
 from scipy.optimize import linear_sum_assignment
-from losses import loss_map
-from utils.functions import save_model, restore_model
+from open_intent_discovery.losses import loss_map
+from open_intent_discovery.utils.functions import save_model, restore_model
 from torch.utils.data import (DataLoader, SequentialSampler, TensorDataset)
 
-from utils.metrics import clustering_score
+from open_intent_discovery.utils.metrics import clustering_score
 from .pretrain import PretrainDeepAlignedManager
 
 class DeepAlignedManager:
@@ -37,7 +37,7 @@ class DeepAlignedManager:
 
         if args.train:
 
-            self.logger.info('Pre-raining start...')
+            self.logger.info('Pre-training start...')
             pretrain_manager.train(args, data)
             self.logger.info('Pre-training finished...')
 
@@ -258,9 +258,3 @@ class DeepAlignedManager:
         train_sampler = SequentialSampler(train_data)
         train_dataloader = DataLoader(train_data, sampler = train_sampler, batch_size = args.train_batch_size)
         return train_dataloader
-
-
-            
-
-
-    

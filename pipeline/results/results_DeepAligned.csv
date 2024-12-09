@@ -1,0 +1,4 @@
+ACC,ARI,NMI,dataset,method,backbone,known_cls_ratio,labeled_ratio,cluster_num_factor,seed,created_time
+10.32,2.07,27.96,banking,DeepAligned,bert,0.25,1.0,1.0,0,2024-12-09-20-32-51
+14.27,2.06,48.77,clinc,DeepAligned,bert,0.25,1.0,1.0,0,2024-12-09-21-07-13
+14.27,2.06,48.77,clinc,DeepAligned,bert,0.25,1.0,1.0,0,2024-12-09-21-24-01

@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'textoir.wsgi.application'
 DATABASES = { 
      'default': { 
      'ENGINE': 'django.db.backends.mysql', 
-     'HOST': '', 
+     'HOST': 'localhost', 
      'PORT': '3306', 
      'NAME': 'ds', 
-     'USER': '', 
-     'PASSWORD': '', 
+     'USER': 'root', 
+     'PASSWORD': 'test123', 
      } 
  } 
 

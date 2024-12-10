@@ -1,12 +1,12 @@
 #!/usr/bin bash
 
-for dataset in 'stackoverflow' 'oos' 'banking'
+for dataset in 'stackoverflow' #'oos' 'banking'
 do
-    for known_cls_ratio in 0.25 0.5 0.75 
+    for known_cls_ratio in 0.25 #0.5 0.75 
     do
         for labeled_ratio in 1.0
         do
-            for seed in 0 1 2 3 4 5 6 7 8 9
+            for seed in 1 #1 2 3 4 5 6 7 8 9
             do 
                 python run.py \
                 --dataset $dataset \
@@ -14,14 +14,14 @@ do
                 --log_id $seed \
                 --known_cls_ratio $known_cls_ratio \
                 --labeled_ratio $labeled_ratio \
+                --config_file_name 'ADB.py' \
                 --seed $seed \
                 --backbone 'bert' \
-                --config_file_name 'ADB' \
-                --gpu_id '0' \
-                --train \
                 --save_results \
-                --results_file_name 'results_ADB.csv' \
-                --save_frontend_results
+                --save_model \
+                --save_frontend_results \
+                --train \
+                --results_file_name 'results_ADB.csv' 
             done
         done
     done

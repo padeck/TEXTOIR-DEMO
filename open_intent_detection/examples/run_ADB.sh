@@ -18,10 +18,10 @@ do
                 --seed $seed \
                 --backbone 'bert' \
                 --save_results \
-                --save_model \
                 --save_frontend_results \
                 --train \
                 --results_file_name 'results_ADB.csv' 
+                #--save_model \
             done
         done
     done

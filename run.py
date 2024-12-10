@@ -1,7 +1,13 @@
 
+import sys
+import os
+
+# Add open_intent_detection to sys.path so that we can access losses
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'open_intent_detection')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'open_intent_discovery')))
+
 import argparse
 import logging
-import os
 import datetime
 import sys
 import json

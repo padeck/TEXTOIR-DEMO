@@ -242,13 +242,23 @@ class ADBManager:
 
 
     def open_classify(self, data, features):
-
+        # Calculate logits and predictions
         logits = euclidean_metric(features, self.centroids)
-        probs, preds = F.softmax(logits.detach(), dim = 1).max(dim = 1)
+        probs, preds = F.softmax(logits.detach(), dim=1).max(dim=1)
+        
+        # Calculate Euclidean distance
         euc_dis = torch.norm(features - self.centroids[preds], 2, 1).view(-1)
+        
+        # Move delta to the same device as preds
+        delta_device = self.delta.device  # Get the device of self.delta
+        if preds.device != delta_device:
+            self.delta = self.delta.to(preds.device)  # Move delta to the same device as preds
+
+        # Perform the operation now that both are on the same device
         preds[euc_dis >= self.delta[preds]] = data.unseen_label_id
 
         return preds
+
     
     def test(self, args, data, show=True):
         

@@ -49,7 +49,7 @@ def parse_arguments():
     parser.add_argument("--model_dir", default='models', type=str, 
                         help="The output directory where the model predictions and checkpoints will be written.") 
 
-    parser.add_argument("--output_dir", default= '/home/sharing/disk2/zhanghanlei/save_data_162/TEXTOIR/outputs', type=str, 
+    parser.add_argument("--output_dir", default= './outputs', type=str, 
                         help="The output directory where all train data will be written.")
     
     parser.add_argument("--gpu_id", type=str, default='0', help="Select the GPU id")

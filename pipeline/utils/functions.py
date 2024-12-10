@@ -137,7 +137,7 @@ def combine_test_results(args,  detection_preds, \
 
     open_k_num = discovery_data["num_labels"] - discovery_data["n_known_cls"]
     from sklearn.cluster import KMeans
-    km = KMeans(n_clusters=open_k_num, n_jobs=-1, random_state = args.seed)
+    km = KMeans(n_clusters=open_k_num, random_state = args.seed)
     km.fit(open_feats)
     open_labels = km.labels_ + discovery_data["n_known_cls"]
 

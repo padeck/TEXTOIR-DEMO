@@ -111,13 +111,13 @@ def save_final_results(args, test_results):
     if not os.path.exists(results_path) or os.path.getsize(results_path) == 0:
         ori = []
         ori.append(values)
-        df1 = pd.DataFrame(ori,columns = keys)
-        df1.to_csv(results_path,index=False)
+        df1 = pd.DataFrame(ori, columns=keys)
+        df1.to_csv(results_path, index=False)
     else:
         df1 = pd.read_csv(results_path)
-        new = pd.DataFrame(results,index=[1])
-        df1 = df1.append(new,ignore_index=True)
-        df1.to_csv(results_path,index=False)
+        new = pd.DataFrame(results, index=[1])
+        df1 = pd.concat([df1, new], ignore_index=True)
+        df1.to_csv(results_path, index=False)
     data_diagram = pd.read_csv(results_path)
     
     logger = logging.getLogger(args.logger_name)

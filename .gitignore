@@ -4,3 +4,4 @@ bert_uncased_L-12_H-768_A-12
 *.log
 pipeline/exp
 pipeline/outputs
+data

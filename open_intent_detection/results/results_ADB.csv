@@ -1,0 +1,3 @@
+F1-known,F1-open,F1,Acc,dataset,method,backbone,known_cls_ratio,labeled_ratio,loss,seed,num_train_epochs,created_time
+72.3722,84.4961,72.9784,78.6,banking,ADB,bert,0.25,1.0,CrossEntropyLoss,0,100,2024-12-11-16-46-02
+80.3506,78.5739,80.305,78.51,banking,ADB,bert,0.5,1.0,CrossEntropyLoss,0,100,2024-12-11-19-01-55

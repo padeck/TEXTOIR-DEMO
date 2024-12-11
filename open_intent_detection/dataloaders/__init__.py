@@ -114,7 +114,7 @@ benchmark_labels = {
              ],
         'labeled_1':
             [
-                'resume' 'review' 'meeting' 'send' 'bug'
+                'resume','review','meeting','send','bug'
             ]
 
 }

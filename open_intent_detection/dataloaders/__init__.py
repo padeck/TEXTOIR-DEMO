@@ -5,7 +5,8 @@ max_seq_lengths = {
                         'stackoverflow':45,
                         'banking':55, 
                         'oos':30, 
-                        'snips':35
+                        'snips':35,
+                        'labeled_1':269,
                     }
                     
 
@@ -109,6 +110,11 @@ benchmark_labels = {
              "translate", "travel_alert", "travel_notification", "travel_suggestion", "uber", 
              "update_playlist", "user_name", "vaccines", "w2", "weather",
              "what_are_your_hobbies", "what_can_i_ask_you", "what_is_your_name", "what_song", "where_are_you_from", 
-             "whisper_mode", "who_do_you_work_for", "who_made_you", "yes"],
+             "whisper_mode", "who_do_you_work_for", "who_made_you", "yes"
+             ],
+        'labeled_1':
+            [
+                'resume' 'review' 'meeting' 'send' 'bug'
+            ]
 
 }

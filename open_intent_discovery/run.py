@@ -35,7 +35,7 @@ def parse_arguments():
 
     parser.add_argument("--train", action="store_true", help="Whether train the model")
 
-    parser.add_argument("--save_model", action="store_true", help="save trained-model for open intent detection")
+    parser.add_argument("--save_model", action="store_true", help="save trained-model for open intent discovery")
 
     parser.add_argument("--backbone", type=str, default='bert', help="which backbone to use")
 
@@ -64,9 +64,9 @@ def parse_arguments():
 
     parser.add_argument("--frontend_result_dir", type=str, default = sys.path[0] + '/../frontend/static/jsons', help="The path to save results")
 
-    parser.add_argument("--save_results", action="store_true", help="save final results for open intent detection")
+    parser.add_argument("--save_results", action="store_true", help="save final results for open intent discovery")
 
-    parser.add_argument("--save_frontend_results", action="store_true", help="save final frontend results for open intent detection")
+    parser.add_argument("--save_frontend_results", action="store_true", help="save final frontend results for open intent discovery")
     
     args = parser.parse_args()
 

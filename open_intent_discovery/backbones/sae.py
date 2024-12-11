@@ -2,7 +2,7 @@ from keras.optimizers import Adam
 from keras.models import Sequential
 from keras.layers import Dense
 from keras import backend as K
-from keras.engine.topology import Layer, InputSpec
+from tensorflow.keras.layers import Layer, InputSpec
 
 def get_encoded(model, data, nb_layer):
     transform = K.function([model.layers[0].input], 

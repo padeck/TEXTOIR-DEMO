@@ -35,12 +35,15 @@ def save_results(args, test_results):
     true_labels_path = os.path.join(args.method_output_dir, 'y_true.npy')
     np.save(true_labels_path, test_results['y_true'])
 
-    if 'y_true' in test_results.keys():
-        del test_results['y_true']
-    if 'y_pred' in test_results.keys():
-        del test_results['y_pred']
-    if 'y_feat' in test_results.keys():
-        del test_results['y_feat']
+    # Create a copy to modify for saving other results
+    results_copy = test_results.copy()
+
+    if 'y_true' in results_copy.keys():
+        del results_copy['y_true']
+    if 'y_pred' in results_copy.keys():
+        del results_copy['y_pred']
+    if 'y_feat' in results_copy.keys():
+        del results_copy['y_feat']
 
     if not os.path.exists(args.result_dir):
         os.makedirs(args.result_dir)
@@ -51,7 +54,7 @@ def save_results(args, test_results):
     var = [args.dataset, args.method, args.backbone, args.known_cls_ratio, args.labeled_ratio, args.cluster_num_factor, args.seed, created_time]
     names = ['dataset', 'method', 'backbone', 'known_cls_ratio', 'labeled_ratio', 'cluster_num_factor', 'seed', 'created_time']
     vars_dict = {k:v for k,v in zip(names, var) }
-    results = dict(test_results,**vars_dict)
+    results = dict(results_copy,**vars_dict)
     keys = list(results.keys())
     values = list(results.values())
     

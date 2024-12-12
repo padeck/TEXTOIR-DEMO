@@ -5,7 +5,8 @@ max_seq_lengths = {
                         'clinc':30, 
                         'banking':55, 
                         'stackoverflow': 45,
-                        'snips': 35
+                        'snips': 35,
+                        'labeled_1':269,
                     }
                     
 backbone_loader_map = {
@@ -82,5 +83,9 @@ benchmark_labels = {
                 [
                     "AddToPlaylist", "BookRestaurant", "GetWeather", "PlayMusic", "RateBook", 
                     "SearchCreativeWork", "SearchScreeningEvent"
-                ]
+                ],
+    'labeled_1':
+            [
+                'resume','review','meeting','send','bug'
+            ],
 }

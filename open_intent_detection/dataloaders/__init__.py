@@ -7,6 +7,7 @@ max_seq_lengths = {
                         'oos':30, 
                         'snips':35,
                         'labeled_1':269,
+                        'labeled_2':193,
                     }
                     
 
@@ -115,6 +116,12 @@ benchmark_labels = {
         'labeled_1':
             [
                 'resume','review','meeting','send','bug'
-            ]
+            ],
+        'labeled_2':
+            [
+
+                'meeting_confirm', 'meeting_propose', 'meeting_cancel', 'meeting_reschedule'
+
+            ],
 
 }

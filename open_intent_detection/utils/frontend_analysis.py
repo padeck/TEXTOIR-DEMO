@@ -110,7 +110,12 @@ def TSNE_reduce_feats(feats, dim):
     return reduce_feats
 
 def save_point_results(args, data, results):
-    
+    print(f'------------------ Data Dict!!! ------------------')
+    #print(f'Data: {[example.text_a for example in data.dataloader.test_examples]}')
+    #print(f'Length Data (tests): {len([example.text_a for example in data.dataloader.test_examples])}')
+    print(f'Length results : {len(results["y_feat"])}')
+    #print(results)
+    feats_text = [example.text_a for example in data.dataloader.test_examples]
     test_feats = results['y_feat']
     reduce_feats = TSNE_reduce_feats(test_feats, 2)
 
@@ -121,6 +126,28 @@ def save_point_results(args, data, results):
     data_points = {}
     points = {}
     reduce_feats = [[round(float(item[0]), 2), round(float(item[1]), 2) ] for item in reduce_feats ]
+    test_mappings = []
+    for i in range(len(feats_text)):
+        test = {
+            'text': feats_text[i],
+            'pred': data.label_list[results['y_pred'][i]],
+            'coords': reduce_feats[i]
+        }
+        test_mappings.append(test)  # Append the dictionary to the list
+
+    # Extract the directory from the output file path
+    output_dir = os.path.dirname(args.analysis_output_dir)
+
+    # Define a custom name for your output file
+    output_file_name = "test_mappings.json"
+
+    # Combine the directory and the new file name to create the full output path
+    output_path = os.path.join(output_dir, output_file_name)
+
+    # Save the mappings to the JSON file
+    with open(output_path, 'w') as f:
+        json.dump(test_mappings, f, indent=4)  # Pretty-print JSON with indentation
+
     for idx in range(args.num_labels):
         pos = list(np.where(results['y_pred'] == idx)[0])
         label_item = data.label_list[idx]

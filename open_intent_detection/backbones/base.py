@@ -20,7 +20,8 @@ class ModelManager:
     
     def set_optimizer(self, model, num_train_examples, train_batch_size, num_train_epochs, lr, warmup_proportion):
     
-        num_train_optimization_steps = int(num_train_examples / train_batch_size) * num_train_epochs
+        num_train_optimization_steps = math.ceil(num_train_examples / train_batch_size) * num_train_epochs
+
 
         param_optimizer = list(model.named_parameters())
         no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']

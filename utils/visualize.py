@@ -47,7 +47,7 @@ def detailed_error_analysis(filename):
             orientation='h',  # Horizontal bars
             hovertemplate=(
                 '<b>Intent: %{y}</b><br>'  # Show category (y-axis)
-                'Predicted Label: %{customdata}<br>'  # Show the specific layer (customdata)
+                'Prediction: %{customdata}<br>'  # Show the specific layer (customdata)
                 'Count: %{x}<br>'  # Show the count for this layer (x value)
                 '<extra></extra>'  # Remove default extra info (like trace name)
             ),

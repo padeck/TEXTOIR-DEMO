@@ -139,7 +139,7 @@ def save_point_results(args, data, results):
     output_dir = os.path.dirname(args.analysis_output_dir)
 
     # Define a custom name for your output file
-    output_file_name = "test_mappings.json"
+    output_file_name = f'scatterplot_{args.dataset}_{args.method}_{args.log_id}.json'
 
     # Combine the directory and the new file name to create the full output path
     output_path = os.path.join(output_dir, output_file_name)

@@ -7,6 +7,7 @@ max_seq_lengths = {
                         'stackoverflow': 45,
                         'snips': 35,
                         'labeled_1':269,
+                        'labeled_5':32,
                     }
                     
 backbone_loader_map = {
@@ -88,4 +89,7 @@ benchmark_labels = {
             [
                 'resume','review','meeting','send','bug'
             ],
+            'labeled_5':
+	        ['inform_deadline', 'inform_approval', 'inform_provide_attachment', 'inform_fix_bugs', 'inform_postpone_meeting', 'inform_confirm_meeting', 'inform_availability', 'inform_provide_contact_info', 'request_set_up_conference_call', 'request_confirm_time', 'request_send_presentation', 'request_schedule_meeting', 'request_contact_information', 'request_login_information', 'request_send_copy', 'request_add_cc', 'request_bug_fix', 'request_book_flight', 'request_provide_url', 'request_location', 'request_resolve_issue'],
+
 }

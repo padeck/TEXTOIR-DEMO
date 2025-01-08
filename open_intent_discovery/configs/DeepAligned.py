@@ -28,8 +28,8 @@ class Param():
 
             'bert_model': "../../bert_uncased_L-12_H-768_A-12/",
             'max_seq_length': None, 
-            'num_pretrain_epochs': 1,
-            'num_train_epochs': 1,
+            'num_pretrain_epochs': 100,
+            'num_train_epochs': 100,
             'num_labels': None,
             'freeze_bert_parameters': True,
             'feat_dim': 768,
@@ -38,9 +38,9 @@ class Param():
             'lr': 5e-5, 
             'loss_fct': 'CrossEntropyLoss',
             'activation': 'tanh',
-            'train_batch_size': 128,
-            'eval_batch_size': 64,
-            'test_batch_size': 64,
+            'train_batch_size': 8,
+            'eval_batch_size': 8,
+            'test_batch_size': 8,
             'wait_patient': 20
         }
 

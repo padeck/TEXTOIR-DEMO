@@ -7691,5 +7691,91 @@
                 "wrong_exchange_rate_for_cash_withdrawal"
             ]
         ]
+    },
+    "labeled_5_DeepAligned_1": {
+        "Known Intent Centers": [
+            [
+                11.7,
+                0.68,
+                "inform_approval"
+            ],
+            [
+                4.92,
+                7.86,
+                "inform_provide_attachment"
+            ],
+            [
+                6.63,
+                -14.89,
+                "inform_postpone_meeting"
+            ],
+            [
+                5.07,
+                -3.28,
+                "inform_confirm_meeting"
+            ],
+            [
+                23.76,
+                -3.19,
+                "inform_availability"
+            ],
+            [
+                -24.35,
+                -14.78,
+                "inform_provide_contact_info"
+            ],
+            [
+                -23.85,
+                -5.1,
+                "request_set_up_conference_call"
+            ],
+            [
+                22.45,
+                -9.86,
+                "request_confirm_time"
+            ],
+            [
+                18.68,
+                12.57,
+                "request_send_presentation"
+            ],
+            [
+                -1.24,
+                -15.84,
+                "request_schedule_meeting"
+            ],
+            [
+                -11.87,
+                11.52,
+                "request_login_information"
+            ],
+            [
+                11.8,
+                15.64,
+                "request_send_copy"
+            ]
+        ],
+        "Open Intent Centers": [
+            [
+                10.18,
+                -4.9,
+                "inform_deadline"
+            ],
+            [
+                -20.95,
+                6.71,
+                "inform_fix_bugs"
+            ],
+            [
+                0.4,
+                8.69,
+                "request_contact_information"
+            ],
+            [
+                1.25,
+                -6.73,
+                "request_add_cc"
+            ]
+        ]
     }
 }

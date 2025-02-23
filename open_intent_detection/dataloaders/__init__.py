@@ -8,6 +8,8 @@ max_seq_lengths = {
                         'snips':35,
                         'labeled_1':269,
                         'labeled_2':193,
+                        'labeled_6':15,
+                        'labeled_7':15,
                     }
                     
 
@@ -123,5 +125,10 @@ benchmark_labels = {
                 'meeting_confirm', 'meeting_propose', 'meeting_cancel', 'meeting_reschedule'
 
             ],
+        'labeled_6':
+	        ['request_status_update', 'request_availability', 'offer_contact_in_case_of_questions', 'request_confidentiality', 'request_reschedule_177', 'request_contact_information', 'request_meeting'],
+         'labeled_7':
+	['request_contact_information', 'propose_meeting_time', 'request_reschedule_177', 'request_meeting', 'request_conference_call', 'request_availability', 'request_submit_timesheet', 'request_run_test', 'request_confidentiality', 'request_add_cc (141)', 'request_email_document:', 'request_attendance', 'request_reservation', 'request_review_and_approval', 'request_bug_report', 'request_call', 'request_phone_number', 'request_alternative_time_proposal', 'request_form_completion', 'Hi, Please find attached my timesheet for the period ending 10/23/2000.', 'request_login_credentials', 'inform_attachment', 'request_update_contact_info', 'suggest_meeting_164', 'request_send_file', 'request_send_pricing_information', 'request_send_feedback', 'request_change_priority', 'request_close_bug'],
+
 
 }

@@ -8,6 +8,7 @@ max_seq_lengths = {
                         'snips': 35,
                         'labeled_1':269,
                         'labeled_5':32,
+                        'labeled_7':15,
                     }
                     
 backbone_loader_map = {
@@ -91,5 +92,6 @@ benchmark_labels = {
             ],
             'labeled_5':
 	        ['inform_deadline', 'inform_approval', 'inform_provide_attachment', 'inform_fix_bugs', 'inform_postpone_meeting', 'inform_confirm_meeting', 'inform_availability', 'inform_provide_contact_info', 'request_set_up_conference_call', 'request_confirm_time', 'request_send_presentation', 'request_schedule_meeting', 'request_contact_information', 'request_login_information', 'request_send_copy', 'request_add_cc', 'request_bug_fix', 'request_book_flight', 'request_provide_url', 'request_location', 'request_resolve_issue'],
-
+    'labeled_7':
+	["test",'request_contact_information', 'propose_meeting_time', 'request_reschedule_177', 'request_meeting', 'request_conference_call', 'request_availability', 'request_submit_timesheet', 'request_run_test', 'request_confidentiality', 'request_add_cc (141)', 'request_email_document:', 'request_attendance', 'request_reservation', 'request_review_and_approval', 'request_bug_report', 'request_call', 'request_phone_number', 'request_alternative_time_proposal', 'request_form_completion', 'Hi, Please find attached my timesheet for the period ending 10/23/2000.', 'request_login_credentials', 'inform_attachment', 'request_update_contact_info', 'suggest_meeting_164', 'request_send_file', 'request_send_pricing_information', 'request_send_feedback', 'request_change_priority', 'request_close_bug'],
 }

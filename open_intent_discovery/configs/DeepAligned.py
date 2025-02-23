@@ -26,7 +26,7 @@ class Param():
         """
         hyper_parameters = {
 
-            'bert_model': "../../bert_uncased_L-12_H-768_A-12/",
+            'bert_model': "../bert_uncased_L-12_H-768_A-12/",
             'max_seq_length': None, 
             'num_pretrain_epochs': 100,
             'num_train_epochs': 100,

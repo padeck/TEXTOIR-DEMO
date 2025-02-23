@@ -261,7 +261,7 @@ class ADBManager:
 
     
     def test(self, args, data, show=True):
-        
+        print("test method")
         y_feat = self.get_outputs(args, data, mode = 'test', get_feats = True)
         y_true, y_pred = self.get_outputs(args, data, mode = 'test')
         

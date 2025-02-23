@@ -5376,5 +5376,42 @@
             40,
             18
         ]
+    },
+    "labeled_6_ADB_0": {
+        "intent_class": [
+            "<UNK>",
+            "offer_contact_in_case_of_questions",
+            "request_availability",
+            "request_confidentiality",
+            "request_meeting",
+            "request_status_update"
+        ],
+        "left": [
+            -48,
+            -1,
+            -8,
+            -9,
+            -5,
+            -10
+        ],
+        "right": [
+            14,
+            30,
+            23,
+            22,
+            26,
+            21
+        ]
+    },
+    "labeled_7_ADB_0": {
+        "intent_class": [
+            "<UNK>"
+        ],
+        "left": [
+            -4976
+        ],
+        "right": [
+            14474
+        ]
     }
 }

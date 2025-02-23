@@ -1,0 +1,1738 @@
+[
+    {
+        "text": "Please let me know your thoughts by Tuesday morning.",
+        "pred": "request_status_update",
+        "coords": [
+            -1.56,
+            -6.8
+        ]
+    },
+    {
+        "text": "Please check with Stuart and let me know your plans.",
+        "pred": "request_status_update",
+        "coords": [
+            0.45,
+            -6.55
+        ]
+    },
+    {
+        "text": "Can you please stop by or let me know when you get in today.",
+        "pred": "<UNK>",
+        "coords": [
+            0.38,
+            -5.71
+        ]
+    },
+    {
+        "text": "Please let me know when this will be completed assuming you receive the 35% advance.",
+        "pred": "request_status_update",
+        "coords": [
+            -0.85,
+            -8.06
+        ]
+    },
+    {
+        "text": "Please keep me posted and let me know the outcome of this call.",
+        "pred": "request_status_update",
+        "coords": [
+            0.57,
+            -8.61
+        ]
+    },
+    {
+        "text": "Can you give me an update on the website.",
+        "pred": "request_status_update",
+        "coords": [
+            0.34,
+            -6.12
+        ]
+    },
+    {
+        "text": "Please advise when app is ready for review.",
+        "pred": "<UNK>",
+        "coords": [
+            -1.6,
+            -8.5
+        ]
+    },
+    {
+        "text": "Please keep both Prakash and myself posted.",
+        "pred": "<UNK>",
+        "coords": [
+            0.86,
+            -10.06
+        ]
+    },
+    {
+        "text": "Please keep me posted on Subodh.",
+        "pred": "request_status_update",
+        "coords": [
+            0.57,
+            -9.18
+        ]
+    },
+    {
+        "text": "Please let us know if there have been any changes/additions on your end.",
+        "pred": "request_status_update",
+        "coords": [
+            1.23,
+            -8.4
+        ]
+    },
+    {
+        "text": "Please keep me posted on any other issues.",
+        "pred": "request_status_update",
+        "coords": [
+            0.76,
+            -9.01
+        ]
+    },
+    {
+        "text": "Please keep me abreast of any issues.",
+        "pred": "<UNK>",
+        "coords": [
+            0.94,
+            -10.88
+        ]
+    },
+    {
+        "text": "Team please advise if you have been successful.",
+        "pred": "request_status_update",
+        "coords": [
+            -0.25,
+            -8.81
+        ]
+    },
+    {
+        "text": "Please send your schedule updates to me by end-of-day Friday, I'll update first thing Monday.",
+        "pred": "request_status_update",
+        "coords": [
+            -0.51,
+            -6.7
+        ]
+    },
+    {
+        "text": "Can you give me an update on our status with the WebEx.com application issues? 1.",
+        "pred": "request_status_update",
+        "coords": [
+            0.6,
+            -7.05
+        ]
+    },
+    {
+        "text": "2. Please let me know what occurred last night in terms of monitoring and notification.",
+        "pred": "request_status_update",
+        "coords": [
+            -0.77,
+            -9.17
+        ]
+    },
+    {
+        "text": "Please copy us as you get any additional info.",
+        "pred": "<UNK>",
+        "coords": [
+            3.37,
+            -12.42
+        ]
+    },
+    {
+        "text": "Please let me know ASAP as to when you plan on distributing the announcement.",
+        "pred": "<UNK>",
+        "coords": [
+            -2.08,
+            -6.32
+        ]
+    },
+    {
+        "text": "Please let me know if you have any further updates.",
+        "pred": "request_status_update",
+        "coords": [
+            1.24,
+            -8.07
+        ]
+    },
+    {
+        "text": "Please let us know the status at the earliest.",
+        "pred": "request_status_update",
+        "coords": [
+            -0.29,
+            -7.86
+        ]
+    },
+    {
+        "text": "Can your contact tell us the status?",
+        "pred": "request_status_update",
+        "coords": [
+            -0.02,
+            -6.87
+        ]
+    },
+    {
+        "text": "Please let me know the status by week's end.",
+        "pred": "request_status_update",
+        "coords": [
+            -1.22,
+            -7.38
+        ]
+    },
+    {
+        "text": "lease let me know if there are any changes.",
+        "pred": "request_status_update",
+        "coords": [
+            0.67,
+            -7.26
+        ]
+    },
+    {
+        "text": "Please come online or send me a mail once you are in the office.",
+        "pred": "<UNK>",
+        "coords": [
+            19.37,
+            0.44
+        ]
+    },
+    {
+        "text": "Can you please update me with the status so that I can plan accordingly.",
+        "pred": "request_status_update",
+        "coords": [
+            0.33,
+            -7.8
+        ]
+    },
+    {
+        "text": "Could you please update my profile.",
+        "pred": "<UNK>",
+        "coords": [
+            2.78,
+            -6.52
+        ]
+    },
+    {
+        "text": "Please keep us in the loop, Debbie.",
+        "pred": "<UNK>",
+        "coords": [
+            1.07,
+            -12.46
+        ]
+    },
+    {
+        "text": "Also, please drop me a quick update and let me know how it's going.",
+        "pred": "request_status_update",
+        "coords": [
+            0.93,
+            -6.85
+        ]
+    },
+    {
+        "text": "Please continue to keep me in the loop.",
+        "pred": "<UNK>",
+        "coords": [
+            1.01,
+            -11.92
+        ]
+    },
+    {
+        "text": "Can you please just let Donna know what you are doing to keep in synch?",
+        "pred": "request_status_update",
+        "coords": [
+            0.3,
+            -7.85
+        ]
+    },
+    {
+        "text": "Please let me know ASAP as I will be submitting payroll on Tuesday.",
+        "pred": "request_status_update",
+        "coords": [
+            -0.13,
+            -8.14
+        ]
+    },
+    {
+        "text": "Please advise which date/time is most convenient for you.",
+        "pred": "request_availability",
+        "coords": [
+            -8.0,
+            -3.08
+        ]
+    },
+    {
+        "text": "Please let me know what would be the best date and time for you.",
+        "pred": "request_availability",
+        "coords": [
+            -7.97,
+            -1.31
+        ]
+    },
+    {
+        "text": "Let's meet Monday morning at 9:00 - is that ok?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.38,
+            8.49
+        ]
+    },
+    {
+        "text": "Can you arrange a time and a place?",
+        "pred": "<UNK>",
+        "coords": [
+            -10.79,
+            3.07
+        ]
+    },
+    {
+        "text": "Would you prefer Wednesday or Thursday to discuss this?",
+        "pred": "request_meeting",
+        "coords": [
+            -9.99,
+            2.06
+        ]
+    },
+    {
+        "text": "When would you be available to talk this week?",
+        "pred": "request_availability",
+        "coords": [
+            -7.58,
+            -1.34
+        ]
+    },
+    {
+        "text": "When would you like to do the webex for USAA?",
+        "pred": "request_availability",
+        "coords": [
+            -6.55,
+            -1.43
+        ]
+    },
+    {
+        "text": "Please respond as to which is a better day for you.",
+        "pred": "request_availability",
+        "coords": [
+            -7.13,
+            -3.99
+        ]
+    },
+    {
+        "text": "Please let me know a good time for you and your team.",
+        "pred": "request_availability",
+        "coords": [
+            -5.44,
+            -4.08
+        ]
+    },
+    {
+        "text": "Please let me know when it would be convenient for you.",
+        "pred": "request_availability",
+        "coords": [
+            -6.71,
+            -3.23
+        ]
+    },
+    {
+        "text": "Can we start at 9 and finish by 10:30AM?",
+        "pred": "request_meeting",
+        "coords": [
+            -6.77,
+            2.39
+        ]
+    },
+    {
+        "text": "Or please let me know when it would be convenient to talk.",
+        "pred": "request_availability",
+        "coords": [
+            -6.41,
+            -2.1
+        ]
+    },
+    {
+        "text": "Can we do it 10am or later on Friday?",
+        "pred": "request_availability",
+        "coords": [
+            -8.08,
+            0.61
+        ]
+    },
+    {
+        "text": "Please let me know when you are available to discuss this.",
+        "pred": "<UNK>",
+        "coords": [
+            -3.19,
+            -5.32
+        ]
+    },
+    {
+        "text": "Please let me know a specific time for them to meet.",
+        "pred": "request_meeting",
+        "coords": [
+            -9.75,
+            4.14
+        ]
+    },
+    {
+        "text": "Please give me some available times.",
+        "pred": "request_availability",
+        "coords": [
+            -7.48,
+            -2.85
+        ]
+    },
+    {
+        "text": "Glenn, Would it be possible to schedule it for this Thursday afternoon?",
+        "pred": "request_availability",
+        "coords": [
+            -9.09,
+            1.91
+        ]
+    },
+    {
+        "text": "Hi Roy, Please let me know if 1:30 PST on Tuesday works for you.",
+        "pred": "<UNK>",
+        "coords": [
+            -2.42,
+            -5.52
+        ]
+    },
+    {
+        "text": "Please let me know the suitable time for you to start discussions on this.",
+        "pred": "request_availability",
+        "coords": [
+            -7.67,
+            -1.11
+        ]
+    },
+    {
+        "text": "Please let me know when would be a good time for me to contact you.",
+        "pred": "request_availability",
+        "coords": [
+            -6.95,
+            -3.0
+        ]
+    },
+    {
+        "text": "Can you help me in scheduling a meeting please.",
+        "pred": "request_meeting",
+        "coords": [
+            -8.48,
+            7.6
+        ]
+    },
+    {
+        "text": "Please let me know what time is convenient for you.",
+        "pred": "request_availability",
+        "coords": [
+            -6.94,
+            -3.45
+        ]
+    },
+    {
+        "text": "Please let me know when you might be available to chat about these relationships.",
+        "pred": "request_availability",
+        "coords": [
+            -5.2,
+            -3.4
+        ]
+    },
+    {
+        "text": "Please let me know when a good time would be.",
+        "pred": "request_availability",
+        "coords": [
+            -6.51,
+            -2.96
+        ]
+    },
+    {
+        "text": "Please let me know ASAP what time is convenient for you.",
+        "pred": "request_availability",
+        "coords": [
+            -6.05,
+            -3.78
+        ]
+    },
+    {
+        "text": "Please let me know what time is best for you.",
+        "pred": "request_availability",
+        "coords": [
+            -6.68,
+            -3.72
+        ]
+    },
+    {
+        "text": "Can we set it for 5/29 at 10:00 AM?",
+        "pred": "request_availability",
+        "coords": [
+            -6.84,
+            -0.73
+        ]
+    },
+    {
+        "text": "Please let me know when it will be convenient for you.",
+        "pred": "request_availability",
+        "coords": [
+            -6.23,
+            -3.73
+        ]
+    },
+    {
+        "text": "Please let me know when you would be available to talk.",
+        "pred": "request_availability",
+        "coords": [
+            -5.81,
+            -3.23
+        ]
+    },
+    {
+        "text": "Please let me know the dates/times of these sessions.",
+        "pred": "request_availability",
+        "coords": [
+            -5.66,
+            -4.33
+        ]
+    },
+    {
+        "text": "If not, would you please propose some other times?",
+        "pred": "request_availability",
+        "coords": [
+            -9.97,
+            1.68
+        ]
+    },
+    {
+        "text": "Please give me a call at 650-637-1738 if anything comes up.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            17.53,
+            5.07
+        ]
+    },
+    {
+        "text": "If you need to reach me, please call me on my cell 390-8148. Thanks.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.45,
+            3.84
+        ]
+    },
+    {
+        "text": "Please don't forget to send me your mail address.",
+        "pred": "<UNK>",
+        "coords": [
+            17.21,
+            1.23
+        ]
+    },
+    {
+        "text": "Please call me directly at 561-731-5279 if you have any questions.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.98,
+            4.22
+        ]
+    },
+    {
+        "text": "Please respond if interested either by phone or email.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.08,
+            1.37
+        ]
+    },
+    {
+        "text": "Please call me on the cell if you need to reach me.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.68,
+            3.52
+        ]
+    },
+    {
+        "text": "If you are interested, please contact Lisa Donetti (ldonetti@seebeyond.com).",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.2,
+            3.47
+        ]
+    },
+    {
+        "text": "Please call me at 0081-90-6027-8585 just in case you need to communicate anything.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.19,
+            4.25
+        ]
+    },
+    {
+        "text": "Please feel free to contact me via email or via my mobile - 612-237-5695.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.8,
+            5.16
+        ]
+    },
+    {
+        "text": "If you need me, please don't hesitate to call me on my cell phone: 416-435-1815.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.09,
+            3.28
+        ]
+    },
+    {
+        "text": "For more information please call me at 415-538-8833.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.54,
+            3.8
+        ]
+    },
+    {
+        "text": "Please call me with any questions on 408-569-0404 or my e-mail is emmalouise71@yahoo.com.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.57,
+            3.33
+        ]
+    },
+    {
+        "text": "Please call me if you would like to add to the plan.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.97,
+            5.61
+        ]
+    },
+    {
+        "text": "Please contact me today at my home email account, kcerrone@visto.com, or home office, 650 344-9157.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.62,
+            4.21
+        ]
+    },
+    {
+        "text": "If you have any questions, please email me.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.5,
+            0.65
+        ]
+    },
+    {
+        "text": "Please call either me at 206-985-2040, or Dave Meltzer at 408-835-0242.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.64,
+            4.58
+        ]
+    },
+    {
+        "text": "For further details please get in touch with Mr. Deba Bardhan.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.66,
+            1.47
+        ]
+    },
+    {
+        "text": "Please feel free to call me on my cell if you have any questions 408-569-8753.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.52,
+            3.78
+        ]
+    },
+    {
+        "text": "Please dont' hesitate to call my cell phone, regardless of the time.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            17.78,
+            1.61
+        ]
+    },
+    {
+        "text": "Please call my cell phone with any questions.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.06,
+            2.49
+        ]
+    },
+    {
+        "text": "If you have any questions while I'm gone, please call me at 408-393-3029.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.62,
+            2.51
+        ]
+    },
+    {
+        "text": "Please feel free to reach me via email or cell phone (650-814-0373).",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.58,
+            5.6
+        ]
+    },
+    {
+        "text": "If you have questions, please feel free to contact me via mail or phone.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.81,
+            4.43
+        ]
+    },
+    {
+        "text": "If you have questions, please contact Prasad.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.59,
+            2.94
+        ]
+    },
+    {
+        "text": "Should the need arise please give me a call at: 508-270-5001, ext. 209.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            16.04,
+            5.39
+        ]
+    },
+    {
+        "text": "please send me an email or call at 243-5240 if you need to reach me.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            17.29,
+            5.06
+        ]
+    },
+    {
+        "text": "If you need to contact me, please call 510-489 5265.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.07,
+            4.47
+        ]
+    },
+    {
+        "text": "If you need to speak to me please call 408-562-2601 (cell) or 408-984-7161 (home).",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            20.08,
+            4.24
+        ]
+    },
+    {
+        "text": "Please contact me at 800-355-1103 x8186 at your convenience.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.05,
+            3.75
+        ]
+    },
+    {
+        "text": "Please feel free to call me on my cell 408-569-8753.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.29,
+            4.74
+        ]
+    },
+    {
+        "text": "Please do not hesitate to call me at ext. 8053 or email pkomeilizadeh@avocadoit.com",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.94,
+            2.78
+        ]
+    },
+    {
+        "text": "We just signed Network Appliance in December (please keep confidential).",
+        "pred": "<UNK>",
+        "coords": [
+            0.9,
+            -12.6
+        ]
+    },
+    {
+        "text": "Please keep in mind that this is confidential until Upside releases the article officially.",
+        "pred": "<UNK>",
+        "coords": [
+            2.56,
+            -13.33
+        ]
+    },
+    {
+        "text": "Please treat this information as confidential.",
+        "pred": "request_confidentiality",
+        "coords": [
+            3.12,
+            -14.81
+        ]
+    },
+    {
+        "text": "\"Please do not distribute this to anyone \"\"Very Confidential\"\".\"",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.47,
+            -15.98
+        ]
+    },
+    {
+        "text": "Please keep this to yourself, and let me know if there is serious interest.",
+        "pred": "request_status_update",
+        "coords": [
+            0.87,
+            -8.31
+        ]
+    },
+    {
+        "text": "Diana, PLEASE DO NOT CIRCULATE THIS!",
+        "pred": "request_confidentiality",
+        "coords": [
+            1.89,
+            -16.09
+        ]
+    },
+    {
+        "text": "Please do not have anybody send these or reference these with CGEY.",
+        "pred": "request_confidentiality",
+        "coords": [
+            3.6,
+            -15.31
+        ]
+    },
+    {
+        "text": "Please treat this opportunity at Compaq confidentially!",
+        "pred": "<UNK>",
+        "coords": [
+            0.34,
+            -14.48
+        ]
+    },
+    {
+        "text": "Please keep this price list confidential.",
+        "pred": "request_confidentiality",
+        "coords": [
+            1.81,
+            -14.28
+        ]
+    },
+    {
+        "text": "Please keep in mind that this is confidential until Upside releases the article officially.",
+        "pred": "<UNK>",
+        "coords": [
+            2.56,
+            -13.33
+        ]
+    },
+    {
+        "text": "This one is highly confidential and sensitive, please do not distribute in any way.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.67,
+            -15.47
+        ]
+    },
+    {
+        "text": "Please note that this communication is confidential information as defined in our NDA.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.66,
+            -14.51
+        ]
+    },
+    {
+        "text": "Please do not share outside your organization.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.66,
+            -16.3
+        ]
+    },
+    {
+        "text": "This is very sensitive information so please do not distribute.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.75,
+            -15.47
+        ]
+    },
+    {
+        "text": "Please treat all of this information with the sensitivity that it deserves.",
+        "pred": "request_confidentiality",
+        "coords": [
+            1.65,
+            -14.06
+        ]
+    },
+    {
+        "text": "FYI Attached documents are confidential - please do not distribute further.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.96,
+            -14.96
+        ]
+    },
+    {
+        "text": "Please treat this document as AvocadoIT Confidential.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.27,
+            -15.06
+        ]
+    },
+    {
+        "text": "Please don't distribute this outside as we need to discuss this first.",
+        "pred": "<UNK>",
+        "coords": [
+            0.57,
+            -15.45
+        ]
+    },
+    {
+        "text": "Please do not give or use this email for anyone other than yourself.",
+        "pred": "<UNK>",
+        "coords": [
+            3.91,
+            -16.08
+        ]
+    },
+    {
+        "text": "Please don't pass this out to anyone.",
+        "pred": "request_confidentiality",
+        "coords": [
+            1.84,
+            -15.12
+        ]
+    },
+    {
+        "text": "Please do not discuss the staff meeting topic with anyone else.",
+        "pred": "request_confidentiality",
+        "coords": [
+            1.2,
+            -15.64
+        ]
+    },
+    {
+        "text": "All, please do not forward Elba's email outside the company.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.11,
+            -15.52
+        ]
+    },
+    {
+        "text": "Please don't distribute outside of EP/Accenture.",
+        "pred": "request_confidentiality",
+        "coords": [
+            1.67,
+            -15.02
+        ]
+    },
+    {
+        "text": "Please keep this presentation internal for your evaluation purposes.",
+        "pred": "<UNK>",
+        "coords": [
+            0.95,
+            -13.89
+        ]
+    },
+    {
+        "text": "Please DO NOT mention this to anyone else until we figure out what happened.",
+        "pred": "<UNK>",
+        "coords": [
+            3.04,
+            -13.27
+        ]
+    },
+    {
+        "text": "Please say nothing to anyone about this.",
+        "pred": "request_confidentiality",
+        "coords": [
+            3.53,
+            -14.84
+        ]
+    },
+    {
+        "text": "Please do not distribute externally.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.16,
+            -16.28
+        ]
+    },
+    {
+        "text": "See attached powerpoint marked confidential; please do not distribute.",
+        "pred": "request_confidentiality",
+        "coords": [
+            3.13,
+            -15.85
+        ]
+    },
+    {
+        "text": "Please do not show this outside of our group as there are names in it.",
+        "pred": "request_confidentiality",
+        "coords": [
+            1.83,
+            -15.77
+        ]
+    },
+    {
+        "text": "Please consider this confidential to AvocadoIT.",
+        "pred": "request_confidentiality",
+        "coords": [
+            2.26,
+            -14.13
+        ]
+    },
+    {
+        "text": "These are confidential, please do not forward.",
+        "pred": "request_confidentiality",
+        "coords": [
+            3.24,
+            -16.13
+        ]
+    },
+    {
+        "text": "Can we mover our meeting tomorrw back 1 hour?",
+        "pred": "request_meeting",
+        "coords": [
+            -7.23,
+            7.02
+        ]
+    },
+    {
+        "text": "Can we reschedule this for Monday July 31?",
+        "pred": "request_availability",
+        "coords": [
+            -7.55,
+            0.52
+        ]
+    },
+    {
+        "text": "I really apologize but can we reschedule for next week.",
+        "pred": "request_availability",
+        "coords": [
+            -7.52,
+            1.3
+        ]
+    },
+    {
+        "text": "Can we move your call to 5:00 pm EST (2:00 pm PST)?",
+        "pred": "request_availability",
+        "coords": [
+            -6.36,
+            -0.69
+        ]
+    },
+    {
+        "text": "George, Can we move our meeting scheduled on 3/5 to 3/6 in the afternoon?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.78,
+            5.9
+        ]
+    },
+    {
+        "text": "Can we delay the meeting until late October?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.25,
+            5.88
+        ]
+    },
+    {
+        "text": "If Donna can meet later this week, let's reschedule.",
+        "pred": "request_meeting",
+        "coords": [
+            -10.31,
+            8.96
+        ]
+    },
+    {
+        "text": "Please let me know when a good time to reschedule would be.",
+        "pred": "request_availability",
+        "coords": [
+            -6.82,
+            -2.45
+        ]
+    },
+    {
+        "text": "Can we do this around 1:00pm on 1/9 instead.",
+        "pred": "request_availability",
+        "coords": [
+            -6.91,
+            0.37
+        ]
+    },
+    {
+        "text": "Hi Laura, Can we reschedule our appointment?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.86,
+            4.38
+        ]
+    },
+    {
+        "text": "Can you please reschedule for another time that works with my calendar?",
+        "pred": "request_availability",
+        "coords": [
+            -7.08,
+            0.03
+        ]
+    },
+    {
+        "text": "Can we do this at 4:30 or later?",
+        "pred": "request_availability",
+        "coords": [
+            -7.46,
+            1.76
+        ]
+    },
+    {
+        "text": "Can we meet Friday morning instead?",
+        "pred": "request_meeting",
+        "coords": [
+            -11.21,
+            8.34
+        ]
+    },
+    {
+        "text": "Is it possible to move this meeting up to 5:00 PM?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.32,
+            2.83
+        ]
+    },
+    {
+        "text": "Sorry Mary, can we make it tomorrow at 10:30am PST.",
+        "pred": "request_meeting",
+        "coords": [
+            -7.38,
+            2.27
+        ]
+    },
+    {
+        "text": "Is it possible to move tomorrow's meeting to the afternoon?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.72,
+            3.07
+        ]
+    },
+    {
+        "text": "can we reschedule for 1 pm ?",
+        "pred": "request_availability",
+        "coords": [
+            -7.78,
+            -0.15
+        ]
+    },
+    {
+        "text": "Nihar, can we move this meeting to 5:30 today per Hideki's request?",
+        "pred": "request_meeting",
+        "coords": [
+            -7.72,
+            4.4
+        ]
+    },
+    {
+        "text": "Srik, Can we have the meeting after 1:30?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.54,
+            6.84
+        ]
+    },
+    {
+        "text": "Can we change our 12/7 call to 12/8 at the same time?",
+        "pred": "request_availability",
+        "coords": [
+            -4.48,
+            -1.86
+        ]
+    },
+    {
+        "text": "Glenn, Could you please reschedule the meeting to 11:30.",
+        "pred": "request_meeting",
+        "coords": [
+            -8.38,
+            4.25
+        ]
+    },
+    {
+        "text": "Could you please reschedule the meeting.",
+        "pred": "request_meeting",
+        "coords": [
+            -8.12,
+            5.76
+        ]
+    },
+    {
+        "text": "Darshan, Is it possible to move the call back to 4 PM EST?",
+        "pred": "<UNK>",
+        "coords": [
+            -4.21,
+            -1.86
+        ]
+    },
+    {
+        "text": "Can you reschedule the call with Kumi?",
+        "pred": "request_meeting",
+        "coords": [
+            -6.19,
+            4.8
+        ]
+    },
+    {
+        "text": "Can you reschedule the meeting with Spangler to Friday March 3.",
+        "pred": "request_meeting",
+        "coords": [
+            -8.07,
+            6.02
+        ]
+    },
+    {
+        "text": "can we move our meeting to 10 am monday?",
+        "pred": "request_meeting",
+        "coords": [
+            -9.14,
+            3.41
+        ]
+    },
+    {
+        "text": "Could we push our meeting to Monday?",
+        "pred": "request_meeting",
+        "coords": [
+            -9.23,
+            3.6
+        ]
+    },
+    {
+        "text": "Also, can we reschedule this weeks meeting from Tue 9AM to Thursday 9AM.",
+        "pred": "request_meeting",
+        "coords": [
+            -7.54,
+            7.37
+        ]
+    },
+    {
+        "text": "David, Could we postpone today's call until tomorrow (Wednesday)?",
+        "pred": "request_meeting",
+        "coords": [
+            -7.59,
+            3.77
+        ]
+    },
+    {
+        "text": "Can we reschedule the call?",
+        "pred": "request_meeting",
+        "coords": [
+            -6.34,
+            4.66
+        ]
+    },
+    {
+        "text": "Mustafa, Can we reschedule the meeting for Tuesday the 19th - about 4pm PST?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.54,
+            5.05
+        ]
+    },
+    {
+        "text": "Could you please send me your personal contact information.",
+        "pred": "<UNK>",
+        "coords": [
+            14.73,
+            3.66
+        ]
+    },
+    {
+        "text": "Could you forward me Ben's contact information?",
+        "pred": "<UNK>",
+        "coords": [
+            13.7,
+            4.04
+        ]
+    },
+    {
+        "text": "Would you please provide me with your contact numbers?",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.83,
+            4.62
+        ]
+    },
+    {
+        "text": "Can you please leave a contact number for Ken?",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.33,
+            4.59
+        ]
+    },
+    {
+        "text": "Can you please send me your contact information.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.03,
+            3.05
+        ]
+    },
+    {
+        "text": "Please reply with your contact info.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.9,
+            2.33
+        ]
+    },
+    {
+        "text": "Would you also please send me your updated contact info?",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            14.84,
+            2.75
+        ]
+    },
+    {
+        "text": "Sales - Please provide your contact information to Tony.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.06,
+            2.7
+        ]
+    },
+    {
+        "text": "Can you send us contact information.",
+        "pred": "<UNK>",
+        "coords": [
+            14.11,
+            2.33
+        ]
+    },
+    {
+        "text": "If so, can you provide your contact information?",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.43,
+            3.77
+        ]
+    },
+    {
+        "text": "Please include your account number and how we may contact you.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            17.64,
+            3.99
+        ]
+    },
+    {
+        "text": "Can you please provide us with the contact information?",
+        "pred": "<UNK>",
+        "coords": [
+            14.35,
+            2.49
+        ]
+    },
+    {
+        "text": "Please contact Rishi or Nilesh for the Banking application and Bithi for the Brokerage application.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            16.84,
+            2.64
+        ]
+    },
+    {
+        "text": "If you could please let me know who to contact, it would be greatly appreciated.",
+        "pred": "<UNK>",
+        "coords": [
+            15.26,
+            5.11
+        ]
+    },
+    {
+        "text": "Since you are traveling, what number can we reach you on?",
+        "pred": "<UNK>",
+        "coords": [
+            -3.45,
+            -1.92
+        ]
+    },
+    {
+        "text": "Would you happen to have his current e-mail address or phone number?",
+        "pred": "<UNK>",
+        "coords": [
+            14.68,
+            5.44
+        ]
+    },
+    {
+        "text": "Please send Nicole's contact info.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.98,
+            3.03
+        ]
+    },
+    {
+        "text": "Also, please give me the contact name, address and phone number.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            18.48,
+            3.15
+        ]
+    },
+    {
+        "text": "Please let me know who I should be talking to about this project.",
+        "pred": "<UNK>",
+        "coords": [
+            -2.91,
+            -5.01
+        ]
+    },
+    {
+        "text": "Can you please provide your contact number or you can call me at 408-562-9968.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            17.37,
+            5.55
+        ]
+    },
+    {
+        "text": "Please call me on 0777 5858787 or at home 01342 843261",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            19.62,
+            5.0
+        ]
+    },
+    {
+        "text": "Please let us know who will be contacting him so he can expect their call.",
+        "pred": "<UNK>",
+        "coords": [
+            2.0,
+            -6.89
+        ]
+    },
+    {
+        "text": "Can you give me the name of our contact?",
+        "pred": "<UNK>",
+        "coords": [
+            13.51,
+            4.29
+        ]
+    },
+    {
+        "text": "Can you send me the correct number or you may call me at 408-562-7964.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            16.51,
+            5.22
+        ]
+    },
+    {
+        "text": "Please give me your contact information and I will get in touch with you.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            15.45,
+            1.7
+        ]
+    },
+    {
+        "text": "Please send your contact information to scottlichtman@alum.mit.edu and I'll give you a call.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            17.8,
+            2.23
+        ]
+    },
+    {
+        "text": "Would you mind giving me the number for the lady from the bank?",
+        "pred": "<UNK>",
+        "coords": [
+            12.94,
+            4.63
+        ]
+    },
+    {
+        "text": "Please send me the address and name/number of our contact.",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            17.17,
+            3.97
+        ]
+    },
+    {
+        "text": "Thanks Amy- Please let me know where I can reach Dan via phone on Wednesday.",
+        "pred": "<UNK>",
+        "coords": [
+            13.8,
+            1.82
+        ]
+    },
+    {
+        "text": "Germana, Can you please send me Jenny's contact no.?",
+        "pred": "offer_contact_in_case_of_questions",
+        "coords": [
+            14.82,
+            4.22
+        ]
+    },
+    {
+        "text": "Could you pass the team chair's contact info, please?",
+        "pred": "<UNK>",
+        "coords": [
+            13.71,
+            3.05
+        ]
+    },
+    {
+        "text": "Could you give me a call or stop by my office this morning to discuss?",
+        "pred": "<UNK>",
+        "coords": [
+            12.59,
+            4.62
+        ]
+    },
+    {
+        "text": "Could we set up a time to talk?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.96,
+            5.89
+        ]
+    },
+    {
+        "text": "Om, please schedule a meeting.",
+        "pred": "request_meeting",
+        "coords": [
+            -9.57,
+            8.19
+        ]
+    },
+    {
+        "text": "Could we get together either on the 4th or 5th April in London?",
+        "pred": "request_meeting",
+        "coords": [
+            -11.36,
+            6.53
+        ]
+    },
+    {
+        "text": "...can we meet for lunch?",
+        "pred": "request_meeting",
+        "coords": [
+            -11.02,
+            8.88
+        ]
+    },
+    {
+        "text": "When would you like to start having these meetings.",
+        "pred": "request_availability",
+        "coords": [
+            -8.36,
+            0.26
+        ]
+    },
+    {
+        "text": "Can we meet at 2.30 pm?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.72,
+            7.92
+        ]
+    },
+    {
+        "text": "I'd appreciate it if we can meet at 11:30 tomorrow.",
+        "pred": "request_meeting",
+        "coords": [
+            -10.96,
+            7.38
+        ]
+    },
+    {
+        "text": "Would you like to set up a time to talk further?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.77,
+            4.15
+        ]
+    },
+    {
+        "text": "Can we meet Monday at 9AM?",
+        "pred": "request_meeting",
+        "coords": [
+            -11.15,
+            7.8
+        ]
+    },
+    {
+        "text": "Noemi, Please set up a meeting and please invite Amitabh as well.",
+        "pred": "request_meeting",
+        "coords": [
+            -9.38,
+            9.3
+        ]
+    },
+    {
+        "text": "Can we meet 5:30 p.m. or later?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.37,
+            7.44
+        ]
+    },
+    {
+        "text": "Please indicate a time you'd like to meet to discuss.",
+        "pred": "request_meeting",
+        "coords": [
+            -11.42,
+            5.57
+        ]
+    },
+    {
+        "text": "Could we connect Friday morning PT?",
+        "pred": "request_meeting",
+        "coords": [
+            -7.25,
+            3.06
+        ]
+    },
+    {
+        "text": "Can we have a meeting tomorrow at 9:30? Thanks! Ricardo",
+        "pred": "request_meeting",
+        "coords": [
+            -9.29,
+            6.89
+        ]
+    },
+    {
+        "text": "Can we meet tomorrow at 5:30?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.69,
+            8.15
+        ]
+    },
+    {
+        "text": "\"Please let me know when can we meet for a discussion on \"\"strengthening the process\"\".\"",
+        "pred": "request_meeting",
+        "coords": [
+            -8.81,
+            7.64
+        ]
+    },
+    {
+        "text": "Could you meet with me late morning or in the afternoon?",
+        "pred": "request_meeting",
+        "coords": [
+            -11.41,
+            8.35
+        ]
+    },
+    {
+        "text": "Let's discuss at your earliest convenience today.",
+        "pred": "request_meeting",
+        "coords": [
+            -8.5,
+            3.82
+        ]
+    },
+    {
+        "text": "Jackie - please coordinate a meeting with the list suggested by Lisa for this week.",
+        "pred": "request_meeting",
+        "coords": [
+            -9.22,
+            8.61
+        ]
+    },
+    {
+        "text": "Please let me know your available meeting times before, during and after the week.",
+        "pred": "request_availability",
+        "coords": [
+            -5.87,
+            -0.58
+        ]
+    },
+    {
+        "text": "Would you like to set up a time to discuss the user interface?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.1,
+            4.22
+        ]
+    },
+    {
+        "text": "Hi Ricardo, Can we schedule for 11:00am (MST) on Monday?",
+        "pred": "request_availability",
+        "coords": [
+            -7.91,
+            2.0
+        ]
+    },
+    {
+        "text": "Can you set up the kickoff meeting with them early next week?",
+        "pred": "request_meeting",
+        "coords": [
+            -8.68,
+            7.25
+        ]
+    },
+    {
+        "text": "Can you meet Venk here at our offices?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.44,
+            9.65
+        ]
+    },
+    {
+        "text": "Can we schedule a meeting for 9 a.m. on Thurs, Nov 30?",
+        "pred": "request_meeting",
+        "coords": [
+            -9.11,
+            6.5
+        ]
+    },
+    {
+        "text": "Can we meet tomorrow around 2pm?",
+        "pred": "request_meeting",
+        "coords": [
+            -10.36,
+            7.38
+        ]
+    },
+    {
+        "text": "Can you please accept the meeting request when you receive it?",
+        "pred": "<UNK>",
+        "coords": [
+            -4.77,
+            2.66
+        ]
+    },
+    {
+        "text": "Can we meet early on Wednesday 9:00am?",
+        "pred": "request_meeting",
+        "coords": [
+            -11.01,
+            7.57
+        ]
+    },
+    {
+        "text": "Let's postpone this meeting for at least a week.",
+        "pred": "request_meeting",
+        "coords": [
+            -7.18,
+            7.34
+        ]
+    },
+    {
+        "text": "How about meeting Tuesday at 12 noon?",
+        "pred": "request_meeting",
+        "coords": [
+            -9.86,
+            3.45
+        ]
+    }
+]

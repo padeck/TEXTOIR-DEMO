@@ -7777,5 +7777,86 @@
                 "request_add_cc"
             ]
         ]
+    },
+    "labeled_7_DeepAligned_1": {
+        "Known Intent Centers": [
+            [
+                62.57,
+                13.79,
+                "propose_meeting_time"
+            ],
+            [
+                45.1,
+                65.23,
+                "request_conference_call"
+            ],
+            [
+                -23.73,
+                -63.3,
+                "request_run_test"
+            ],
+            [
+                29.39,
+                -10.63,
+                "request_add_cc (141)"
+            ],
+            [
+                -39.8,
+                9.66,
+                "request_email_document:"
+            ],
+            [
+                20.52,
+                47.89,
+                "request_reservation"
+            ],
+            [
+                24.45,
+                -25.62,
+                "request_review_and_approval"
+            ]
+        ],
+        "Open Intent Centers": [
+            [
+                -80.22,
+                -18.94,
+                "test"
+            ],
+            [
+                2.52,
+                -0.21,
+                "request_contact_information"
+            ],
+            [
+                22.42,
+                -52.87,
+                "request_reschedule_177"
+            ],
+            [
+                -19.71,
+                62.91,
+                "request_meeting"
+            ],
+            [
+                -1.52,
+                -69.93,
+                "request_availability"
+            ],
+            [
+                -46.31,
+                68.94,
+                "request_submit_timesheet"
+            ],
+            [
+                80.99,
+                17.75,
+                "request_confidentiality"
+            ],
+            [
+                6.33,
+                86.75,
+                "request_attendance"
+            ]
+        ]
     }
 }

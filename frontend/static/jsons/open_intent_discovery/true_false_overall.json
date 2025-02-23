@@ -5327,5 +5327,16 @@
             22,
             10
         ]
+    },
+    "labeled_7_DeepAligned_1": {
+        "intent_class": [
+            "test"
+        ],
+        "left": [
+            -16959
+        ],
+        "right": [
+            2491
+        ]
     }
 }

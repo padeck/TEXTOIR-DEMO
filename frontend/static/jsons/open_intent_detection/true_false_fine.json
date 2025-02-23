@@ -84564,5 +84564,60 @@
             16,
             0
         ]
+    },
+    "labeled_6_ADB_0": {
+        "<UNK>": [
+            0,
+            18,
+            9,
+            0,
+            21,
+            0
+        ],
+        "offer_contact_in_case_of_questions": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "request_availability": [
+            3,
+            0,
+            0,
+            0,
+            5,
+            0
+        ],
+        "request_confidentiality": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "request_meeting": [
+            2,
+            0,
+            3,
+            0,
+            0,
+            0
+        ],
+        "request_status_update": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "labeled_7_ADB_0": {
+        "<UNK>": [
+            0
+        ]
     }
 }

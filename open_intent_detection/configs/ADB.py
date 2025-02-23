@@ -25,8 +25,8 @@ class Param():
         """
         hyper_parameters = {
 
-            'bert_model': "../../bert_uncased_L-12_H-768_A-12/",
-            'num_train_epochs': 5,
+            'bert_model': "../bert_uncased_L-12_H-768_A-12/",
+            'num_train_epochs': 100,
             'num_labels': None,
             'max_seq_length': None, 
             'freeze_bert_parameters': True,
@@ -36,9 +36,9 @@ class Param():
             'lr': 2e-5, 
             'loss_fct': 'CrossEntropyLoss',
             'activation': 'relu',
-            'train_batch_size': 128,
-            'eval_batch_size': 64,
-            'test_batch_size': 64,
+            'train_batch_size': 8,
+            'eval_batch_size': 8,
+            'test_batch_size': 8,
             'wait_patient': 10
 
         }

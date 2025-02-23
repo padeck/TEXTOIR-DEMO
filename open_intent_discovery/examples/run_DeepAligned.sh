@@ -1,9 +1,9 @@
 #!/usr/bin bash
 
 
-for dataset in 'labeled_5' #'clinc'
+for dataset in 'labeled_7' #'clinc'
 do
-    for known_cls_ratio in 0.25 0.5 0.75 #0.75 0.9
+    for known_cls_ratio in 0.5 # 0.5 #0.75 #0.75 0.9
     do
         for seed in 0 
         do 

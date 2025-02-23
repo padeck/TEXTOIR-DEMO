@@ -1,8 +1,8 @@
 #!/usr/bin bash
 
-for dataset in 'labeled_2' #'banking' #'stackoverflow' #'oos' 'banking'
+for dataset in 'labeled_7' #'banking' #'stackoverflow' #'oos' 'banking'
 do
-    for known_cls_ratio in  0.75 #0.75 #0.25
+    for known_cls_ratio in  1
     do
         for labeled_ratio in 1.0
         do
